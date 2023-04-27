@@ -1,0 +1,39 @@
+!DOCTYPE html>
+<html>
+  <head>
+    <title>University Admission Prediction System</title>
+    <style>
+      /* Add your CSS styles here */
+    </style>
+  </head>
+  <body>
+    <h1>University Admission Prediction System</h1>
+    <h2>Enter your details and get the probability of your admission</h2>
+    <form method="POST">
+      <label for="gre">Enter GRE Score:</label>
+      <input type="text" id="gre" name="gre" required>
+      <label for="toefl">Enter TOEFL Score:</label>
+      <input type="text" id="toefl" name="toefl" required>
+      <label for="university">Select University:</label>
+      <select id="university" name="university" required>
+        <option value="1">University 1</option>
+        <option value="2">University 2</option>
+        <option value="3">University 3</option>
+        <option value="4">University 4</option>
+        <option value="5">University 5</option>
+      </select>
+      <label for="sop">Enter SOP:</label>
+      <textarea id="sop" name="sop" required></textarea>
+      <label for="lor">Enter LOR:</label>
+      <textarea id="lor" name="lor" required></textarea>
+      <label for="cgpa">Enter CGPA:</label>
+      <input type="text" id="cgpa" name="cgpa" required>
+      <h2>Research</h2>
+      <label for="research-yes">Yes</label>
+      <input type="radio" id="research-yes" name="research" value="yes" required>
+      <label for="research-no">No</label>
+      <input type="radio" id="research-no" name="research" value="no">
+      <button type="submit">PREDICT</button>
+    </form>
+  </body>
+</html>
